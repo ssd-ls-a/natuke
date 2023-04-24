@@ -11,8 +11,8 @@ from natuke_utils import restore_hin
 from natuke_utils import embedding_graph
 from natuke_utils import true_restore
 
-path = 'path-to-data-repository'
-file_name = 'knn_results'
+path = ''
+file_name = 'craft_results'
 
 def execution(G, algorithm, split, iteration, edge_group, percentual_to_time):
     G_disturbed, train, test, hidden = disturbed_hin(G, split=split, random_state=(1 + iteration), edge_group=edge_group)
@@ -73,10 +73,10 @@ def execution(G, algorithm, split, iteration, edge_group, percentual_to_time):
 
 
 if __name__ == '__main__':
-    network_name = "hin03-05"
+    network_name = "hin22-03"
     splits = [0.8]
-    #edge_groups = ['doi_name', 'doi_bioActivity', 'doi_collectionSpecie', 'doi_collectionSite', 'doi_collectionType']
-    edge_groups = ['doi_collectionType']
+    edge_groups = ['doi_name', 'doi_bioActivity', 'doi_collectionSpecie', 'doi_collectionSite', 'doi_collectionType']
+    # edge_groups = ['doi_name']
     #algorithms = ['deep_walk', 'node2vec', 'metapath2vec', 'regularization']
     algorithms = ['deep_walk', 'node2vec', 'metapath2vec', 'regularization']
     percentual_to_time = {'1st': 0.3, '2nd': 0.32, '3rd': 0.5, '4th': 0.0}

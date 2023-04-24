@@ -1,5 +1,5 @@
 import pandas as pd
-path = 'path-to-data-repository'
+path = ''
 
 with open('{}results/execution_time.txt'.format(path)) as f:
   lines = f.readlines()

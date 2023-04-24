@@ -4,8 +4,8 @@ from ast import literal_eval
 from natuke_utils import hits_at
 from natuke_utils import mrr
 
-path = 'path-to-data-repository'
-file_name = "knn_results"
+path = ''
+file_name = "craft_results"
 splits = [0.8]
 #edge_groups = ['doi_name', 'doi_bioActivity', 'doi_collectionSpecie', 'doi_collectionSite', 'doi_collectionType']
 edge_group = 'doi_collectionType'
