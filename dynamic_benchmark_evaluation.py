@@ -5,9 +5,9 @@ from natuke_utils import hits_at
 from natuke_utils import mrr
 
 path = ''
-file_name = "craft_results"
+file_name = "knn_results_splits"
 splits = [0.8]
-#edge_groups = ['doi_name', 'doi_bioActivity', 'doi_collectionSpecie', 'doi_collectionSite', 'doi_collectionType']
+# edge_groups = ['doi_name', 'doi_bioActivity', 'doi_collectionSpecie', 'doi_collectionSite', 'doi_collectionType']
 edge_group = 'doi_collectionType'
 #algorithms = ['bert', 'deep_walk', 'node2vec', 'metapath2vec', 'regularization']
 algorithms = ['deep_walk', 'node2vec', 'metapath2vec', 'regularization']

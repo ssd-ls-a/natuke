@@ -12,7 +12,7 @@ from natuke_utils import embedding_graph
 from natuke_utils import true_restore
 
 path = ''
-file_name = 'craft_results'
+file_name = 'split_results'
 
 def execution(G, algorithm, split, iteration, edge_group, percentual_to_time):
     G_disturbed, train, test, hidden = disturbed_hin(G, split=split, random_state=(1 + iteration), edge_group=edge_group)
