@@ -2,7 +2,7 @@
 
 ## Instructions to verify results
 1. install requirements
-2. run following programms in given order:
+2. run following programms/notebooks in given order:
   - ```phrases_flow.py```
   - ```topic_generation.ipynb```
   - ```topic_distribution.ipynb```
