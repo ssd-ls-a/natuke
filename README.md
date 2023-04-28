@@ -1,3 +1,16 @@
+# Improving natural product automatic extraction with named entity recognition
+
+## Instructions to verify results
+1. install requirements
+2. run following programms in given order:
+  - ```phrases_flow.py```
+  - ```topic_generation.ipynb```
+  - ```topic_distribution.ipynb```
+  - ```hin_generation.ipynb```
+  - ```knn_dynamic_benchmark_split.py```
+  - ```dynamic_benchmark_evaluation.py```
+
+
 # NatUKE: Natural Product Knowledge Extraction Benchmark
 
 ```
